@@ -25,22 +25,30 @@ A step-by-step walkthrough of submitting a change.
 
 1. Fork 80x40 to your Github account.
 2. Clone your fork to a local repo
-    ```sh
-    $ git clone https://github.com/USERNAME/80x40
-    $ cd 80x40
-    ```
+
+```sh
+$ git clone https://github.com/USERNAME/80x40
+$ cd 80x40
+```
+    
 3. Create a branch to work on:
-    ```sh
-    $ git checkout -b my_super_branch
-    ```
+
+```sh
+$ git checkout -b my_super_branch
+```
+    
 4. Draw something in `README`:
-    Use a simple text editor to make changes to README only. Make sure to follow the guidelines and only change the contents of the text block. Using text insert mode is helpful.
+
+Use a simple text editor to make changes to README only. Make sure to follow the guidelines and only change the contents of the text block. Using text insert mode is helpful.
+
 5. Prepare the change and push it to Github.
-     ```sh
-    $ git add README   # Add README change
-    $ git commit -m "Make PG again"  # Create the change
-    $ git push origin my_super_branch
-    ```
+
+```sh
+$ git add README   # Add README change
+$ git commit -m "Make PG again"  # Create the change
+$ git push origin my_super_branch
+```
+
 6. Submit a [pull request][pullreq] on Github.
     On github, go to your fork of the repo. Change to view `my_super_branch` and submit a pull request.
     
